@@ -14,13 +14,13 @@ open CategoryTheory Category Functor
 /-!
 # Polynomial functors
 
-We define the notion of one-variable polynomial functors on the category of sets. 
+We define the notion of a one-variable polynomial functor on the category of sets. 
 The locally cartesian closed structure of sets is implicit in all the constructions.
 
 The bundle corresponding to a `P : Poly` is the projection
 `fst : Σ b : P.B, P.E b → P.B`.
 
-In LCCCs, instead of working with a type family we shall work with a bundle `p : E → B`.
+In LCCCs, instead of working with a type family, we shall work with a bundle `p : E → B`.
 
 -/
 # Dialectica spaces
