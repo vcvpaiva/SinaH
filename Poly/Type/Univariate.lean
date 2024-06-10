@@ -23,6 +23,12 @@ The bundle corresponding to a `P : Poly` is the projection
 In LCCCs, instead of working with a type family we shall work with a bundle `p : E → B`.
 
 -/
+# Dialectica spaces
+
+We define the notion of a Dialectica space on the category of sets.
+This consists of a triple $(U, X,\alpha)$ where $U, X$ are sets and \alpha is a relation $\alpha\into U\times X$.
+
+-/
 
 universe u v v₁ v₂ v₃
 
